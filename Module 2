@@ -1,0 +1,18 @@
+When I used the first myMean function that was provided, I recieved an error message that read "Error in MyMean(assignment2) : could not find function "MyMean"".
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+myMean <- function(assignment2) {
+return(sum(assignment) / length(someData))}
+MyMean(assignment2)
+
+The reason I recieved this error message is because in the function, the variables for the sum() and length() of the mean function is not assigned to assignment2. If the variables were correctly assigned for each of those arguments, the corrected version of the myMean fuction would like this: 
+
+
+assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
+myMean <- function(assignment2) {
+return(sum(assignment2) / length(assignment2))}
+
+I used the vector of assignment2 for the arguments of length() and sum() because the mean value we are looking for are the collection of numbers that are located in the assignment2 vector. After correcting the function, I used the variable resultofm_M to store the mean result, which came to be 19.25. 
+resultofm_M <- myMean(assignment2)
+resultofm_M
+[1] 19.25
