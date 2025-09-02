@@ -1,4 +1,4 @@
-When I used the first myMean function that was provided, I recieved an error message that read "Error in MyMean(assignment2) : could not find function "MyMean"".
+When I used the first myMean function that was provided, I received an error message that read "Error in MyMean(assignment2) : could not find function "MyMean"".
 
 assignment2 <- c(16, 18, 14, 22, 27, 17, 19, 17, 17, 22, 20, 22)
 myMean <- function(assignment2) {
@@ -16,3 +16,5 @@ I used the vector of assignment2 for the arguments of length() and sum() because
 resultofm_M <- myMean(assignment2)
 resultofm_M
 [1] 19.25
+
+Blog post link :https://mharvey33332-unbkj.wordpress.com/2025/09/02/module-2-assignment/
