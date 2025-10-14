@@ -33,3 +33,9 @@ setMethod("show", "student_s4",
 #Test S4
 s4_obj
 
+isS4(s3_obj)
+isS4(s4_obj)
+
+typeof(iris)
+typeof(s3_obj)
+typeof(s4_obj)
