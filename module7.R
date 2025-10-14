@@ -30,4 +30,6 @@ setMethod("show", "student_s4",
             cat("S4 Student Object\n")
             cat("Name:", object@name, "\nAge:", object@age, "\nGPA:", object@GPA, "\n")
           })
+#Test S4
 s4_obj
+
