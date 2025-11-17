@@ -1,0 +1,34 @@
+---
+title: "My R Markdown primer"
+author: "Makayla Harvey"
+date: "2025-11-16"
+output: html_document
+---
+What is R Markdown?
+
+R Markdown is a file format that can include chunks of embedded, executable code, plain text and markdown capabilities that have the ability to create dynamic reports. 
+
+R Markdown's ability to support plain text, or Markdown text, makes it optimal to use in reports, as different text formatting is available, such as headings, bold, italic, bullet lists, tables, etc. This file format eases the process of data analysis as it allows for the process to be recorded, from cleaning the data, to discussing its results. Another feature R Markdown supports is LaTeX mathematical functions; for example, I am able to write out the slope-intercept formula by using this equation $y = mx +b$. 
+
+```{r}
+
+```
+
+
+To load in a package, library or dataset, I can add an R code chunk that is able to execute the code, for example:
+```{r}
+library(ggplot2)
+data("iris")
+
+head(iris)
+
+```
+
+When the green triangle is clicked (right corner of the chunk), it then runs all of the code in that current chunk. For this next chunk, I will run a summary of the dataset "iris", which was read into the project file in the chunk above.
+
+```{r}
+summary(iris)
+```
+Reflection
+
+When comparing the R Markdown file format to a plain text report, it's easier to see the pros for opting to use the R Markdown. Because the actual analysis (functions, plots, data cleaning), is mixed in with the reporting (introduction of data, explanations, conclusions), it's easier to track each step's purpose and the meaning of its output(s).
